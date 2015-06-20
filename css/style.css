@@ -4,6 +4,26 @@ body {
   padding-bottom: 20px;
 }
 
+
+
+/*Overriding bootstrap styles here*/
 .jumbotron {
-	background-color: #222;
+	background-color: #FFF;
+	padding-top: 20%;
+	padding-bottom: 20%;
 }
+
+.jumbotron img {
+	height: 60%;
+}
+
+.navbar {
+	background-color: #FFF;
+	border: none;
+}
+
+.navbar-brand {
+	margin-left: auto;
+	margin-right: auto;
+}
+
