@@ -6,8 +6,6 @@ html, body {
 
 body {
   font-family: 'Ubuntu', sans-serif;
-/*  background: url('../img/subtle_dots.png');
-  background-repeat: repeat;*/
 }
 
 .logo-container {
@@ -15,7 +13,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	vertical-align: middle;
-	background: url('../img/stardust.png');
+	background: url('../img/simple_dashed.png');
 	background-repeat: repeat;
 }
 
@@ -29,7 +27,7 @@ body {
 }
 
 .navbar {
-	background: url('../img/stardust.png');
+	background: url('../img/simple_dashed.png');
 	background-repeat: repeat;
 	height: 2em;
 	line-height: 2em;
