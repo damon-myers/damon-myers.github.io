@@ -15,12 +15,19 @@
 
 html {
   font-size: 100%;
+
+  //For sticky footer
+  position: relative;
+  min-height: 100%;
 }
 
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+
+  //For sticky footer (margin-bottom is height of footer)
+  margin: 0 0 80px;
 }
 
 .container {
@@ -53,6 +60,9 @@ h1 {
 
 h2 {
   font-size: 24px;
+  a {
+    color: inherit;
+  }
 }
 
 h3 {
@@ -118,6 +128,7 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+  margin-bottom: 3em;
 }
 
 // Specify the color of the selection
@@ -168,7 +179,7 @@ img {
   width: 100px;
   height: 65px;
   margin-right: 15px;
-  margin-top: 15px;
+  margin-top: 11px;
 
   @include mobile {
     float: none;
@@ -269,6 +280,7 @@ nav {
 }
 
 .wrapper-footer {
+  height: 80px;
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -282,6 +294,12 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
