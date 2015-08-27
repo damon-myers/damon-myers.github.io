@@ -4,12 +4,9 @@ title: Contact
 permalink: /contact/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Damon Myers is a student pursuing a Bachelor's of Science in Computer Science at the [University of Texas of the Permian Basin](http://www.utpb.edu) as well as a GIS Developer for the [City of Odessa, TX](http://odessa-tx.gov). His research interests lie in Human-Computer Interaction, Artificial Intelligence.
 
 ### Contact me
+If you think that I could be of any help to you or your organization, I'd love to discuss the possibility! I am most easily reached through email, but you can also find me on social media through the links below.
 
 [damon.shane.myers@gmail.com](mailto:damon.shane.myers@gmail.com)

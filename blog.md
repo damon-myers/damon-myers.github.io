@@ -4,4 +4,4 @@ title: Blog
 permalink: /blog/
 ---
 
-#Things I'm writing about:
+#Posts:
