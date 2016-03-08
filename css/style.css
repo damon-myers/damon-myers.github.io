@@ -1,0 +1,23 @@
+body {
+  background-color: #101010;
+  color: white;
+}
+
+#front {
+  background: url(./images/skyscraper-grayscale.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.vertical-center {
+  /* Old browser support */
+  min-height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrapper {
