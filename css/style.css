@@ -1,10 +1,16 @@
 body {
   background-color: #101010;
   color: white;
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 #front {
-  background: url(./images/skyscraper-grayscale.jpg) no-repeat center center fixed;
+  background: url("http://s15.postimg.org/qaxajixxl/skyscraper_gray_grain.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -21,3 +27,7 @@ body {
 }
 
 .logo-wrapper {
+  display: block;
+  vertical-align: middle;
+  margin: auto;
+}
