@@ -1,20 +1,41 @@
-body {
-  background-color: #101010;
-  color: white;
-  font-family: 'Lora', serif;
-  text-align: center;
-}
-
-h1 {
+h1,
+.main-nav a {
   font-family: 'Montserrat', sans-serif;
 }
 
-#front {
-  background: url("http://s15.postimg.org/qaxajixxl/skyscraper_gray_grain.jpg") no-repeat center center fixed;
+h1 {
+    font-weight: 700;
+}
+
+header {
+  background: url("http://s18.postimg.org/s8kt0c29z/skyscraper_grayscale_gradient.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+.main-nav {
+  position: fixed;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.main-nav-scrolled {
+  border-bottom: 1px solid rgba(255,255,255,.3);
+  background: #000;
+}
+
+.main-nav a {
+  padding: 10px 50px 10px 50px;
+  color: white;
+  font-size: 12pt;
+}
+
+.main-nav a:hover {
+  color: #27d5db;
+  text-decoration: none;
 }
 
 .vertical-center {
@@ -30,4 +51,9 @@ h1 {
   display: block;
   vertical-align: middle;
   margin: auto;
+}
+
+.main {
+  height: 100000px;
+  background: black;
 }
