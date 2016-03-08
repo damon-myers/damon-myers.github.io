@@ -47,10 +47,32 @@ header {
   align-items: center;
 }
 
+#header-container {
+  display: block;
+  width: 100%;
+}
+
 .logo-wrapper {
   display: block;
-  vertical-align: middle;
-  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.links {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 20pt;
+  list-style-type: none;
+  text-align: center;
+}
+
+.links a {
+  color: white;
+  padding: 28px;
+}
+
+.links a:hover {
+  color: #27d5db;
 }
 
 .main {
