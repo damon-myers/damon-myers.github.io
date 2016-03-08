@@ -1,0 +1,81 @@
+h1,
+.main-nav a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+header {
+  background: url("http://s18.postimg.org/s8kt0c29z/skyscraper_grayscale_gradient.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.main-nav {
+  position: fixed;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.main-nav-scrolled {
+  border-bottom: 1px solid rgba(255,255,255,.3);
+  background: #000;
+}
+
+.main-nav a {
+  padding: 10px 50px 10px 50px;
+  color: white;
+  font-size: 12pt;
+}
+
+.main-nav a:hover {
+  color: #27d5db;
+  text-decoration: none;
+}
+
+.vertical-center {
+  /* Old browser support */
+  min-height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+#header-container {
+  display: block;
+  width: 100%;
+}
+
+.logo-wrapper {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.links {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 20pt;
+  list-style-type: none;
+  text-align: center;
+}
+
+.links a {
+  color: white;
+  padding: 28px;
+}
+
+.links a:hover {
+  color: #27d5db;
+}
+
+.main {
+  color: white;
+  background: black;
+}
