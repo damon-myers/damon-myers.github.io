@@ -27,13 +27,10 @@ p>a:hover {
 }
 
 header {
-<<<<<<< HEAD
   position: relative;
   width: 100%;
   min-height: auto;
-=======
   background: url("../images/skyscraper-gradient.jpg") no-repeat center center;
->>>>>>> 101a5c9759a32ab3df3a66742cd76d645c8ad702
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
