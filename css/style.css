@@ -30,6 +30,7 @@ header {
   position: relative;
   width: 100%;
   min-height: auto;
+  background: url("../images/skyscraper-gradient.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
