@@ -30,13 +30,12 @@ header {
   position: relative;
   width: 100%;
   min-height: auto;
-  background: url("../images/skyscraper-gradient.jpg") no-repeat center center;
+  background-image: url("../images/sunset_powerlines_360p.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url("../images/sunset_powerlines.jpg");
   background-color: #DFDFDF;
   text-align: center;
   color: white;
@@ -198,6 +197,7 @@ label {
 /* Media Queries for Desktop Viewers */
 @media (min-width: 768px) {
   header {
+    background-image: url("../images/sunset_powerlines_720p.jpg");
     min-height: 100%;
   }
   
@@ -224,5 +224,17 @@ label {
     -webkit-transition: all .35s;
     -moz-transition: all 0.35s;
     transition: all .35s;
+  }
+}
+
+@media (min-width: 1300px) {
+  header {
+    background-image: url("../images/sunset_powerlines_1080p.jpg");
+  }
+}
+
+@media (min-width: 1921px) {
+  header {
+    background-image: url("../images/sunset_powerlines_1440p.jpg");
   }
 }
