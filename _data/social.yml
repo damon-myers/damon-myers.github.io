@@ -1,1 +1,12 @@
-
+- name: github
+  link: https://github.com/damon-myers
+  cssClass: github-link
+- name: twitter
+  link: https://twitter.com/myersdamon
+  cssClass: twitter-link
+- name: linkedin
+  link: https://linkedin.com/in/myersdamon
+  cssClass: linkedin-link
+- name: email
+  link: mailto:damon.shane.myers@gmail.com
+  cssClass: email-link

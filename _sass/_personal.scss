@@ -1,0 +1,19 @@
+$sidebarWidth: 360px;
+
+.personal-sidebar {
+    background: #333;
+
+    color: #ddd;
+
+    width: $sidebarWidth;
+    padding: 50px;
+
+    h1 {
+        margin-top: 0;
+    }
+
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
