@@ -3,19 +3,11 @@
 $sidebarWidth: 360px;
 
 .personal-sidebar {
-    background: $contentBackgroundColor;
+}
 
-    color: $defaultTextColor;
-
-    width: $sidebarWidth;
-    padding: 50px;
-
-    h1 {
-        margin-top: 0;
-    }
-
-    p {
-        text-align: justify;
-        text-justify: inter-word;
+@media(min-width: 768px) {
+    .personal-sidebar {
+        grid-column-start: 1;
+        width: $sidebarWidth;
     }
 }

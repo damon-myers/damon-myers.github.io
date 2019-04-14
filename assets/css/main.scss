@@ -6,11 +6,60 @@
 @import "header";
 @import "personal";
 @import "social";
+@import "recent";
 
 body {
     margin: 0;
     padding: 0;
 
     background: $backgroundColor;
+    color: $defaultTextColor;
+
     font-family: monospace;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a {
+    color: $defaultTextColor;
+    text-decoration: none;
+}
+
+a::before {
+    content: "[ ";
+}
+
+a::after{
+    content: " ]";
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin: auto;
+}
+
+.content-block {
+    margin: 20px;
+
+    h1 {
+        margin-top: 0;
+    }
+}
+
+@media(min-width: 768px) {
+    .content {
+        display: grid;
+
+        width: 60%;
+    }
+
+    .content-block {
+        padding: 50px;
+    }
 }

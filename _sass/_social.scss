@@ -1,3 +1,5 @@
+@import "globals";
+
 .social-link-list {
     display: flex;
     justify-content: space-between;
@@ -34,26 +36,18 @@ $socialLinkColor: #d8d8d8;
     }
 }
 
-$githubColor: #dc9656;
-
 .github-link {
-    @include setLinkColorAndHoverColor($githubColor);
+    @include setLinkColorAndHoverColor($orange);
 }
-
-$linkedinColor: #f7ca88;
 
 .linkedin-link {
-    @include setLinkColorAndHoverColor($linkedinColor);
+    @include setLinkColorAndHoverColor($yellow);
 }
-
-$twitterColor: #7cafc2;
 
 .twitter-link {
-    @include setLinkColorAndHoverColor($twitterColor);
+    @include setLinkColorAndHoverColor($blue);
 }
 
-$emailColor: #ab4642;
-
 .email-link {
-    @include setLinkColorAndHoverColor($emailColor);
+    @include setLinkColorAndHoverColor($red);
 }

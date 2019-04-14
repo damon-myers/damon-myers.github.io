@@ -1,7 +1,7 @@
 @import "globals";
 
 header {
-    border-bottom: 1px solid lighten($backgroundColor, 20%);
+    border-bottom: 1px solid $borderColor;
 }
 
 nav {
@@ -13,18 +13,22 @@ nav {
     text-align: center;
 
     a {
-        color: $defaultTextColor;
         font-size: 16px;
         line-height: 1.5;
-        text-decoration: none;
+    }
+
+    a::before {
+        // to remove brackets
+        content: none;
+    }
+
+    a::after {
+        // to remove brackets
+        content: none;
     }
 
     a:not(:last-child) {
         margin-right: 20px;
-    }
-
-    a:hover {
-        text-decoration: underline;
     }
 }
 

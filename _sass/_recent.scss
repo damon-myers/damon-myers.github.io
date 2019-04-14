@@ -1,0 +1,35 @@
+@import "globals";
+
+.recent-posts {
+}
+
+.post-list {
+    padding: 10px;
+    list-style: none;
+
+    li {
+        display: block;
+
+        height: 40px;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .post-date {
+        float: right;
+        color: darken($defaultTextColor, 30%);
+    }
+}
+
+.more-posts {
+    float: right;
+    color: $green;
+}
+
+@media(min-width: 768px) {
+    .recent-posts {
+        grid-column-start: 2;
+
+        width: 360px;
+    }
+}

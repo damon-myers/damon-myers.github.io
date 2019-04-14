@@ -1,5 +1,5 @@
 <ul class="social-link-list">
     {% for link in site.data.social %}
-    <li><a href="{{ link.link }}" class="social-link {{ link.cssClass }}">[ {{ link.name}} ]</a></li>
+    <li><a href="{{ link.link }}" class="social-link {{ link.cssClass }}">{{ link.name}}</a></li>
     {% endfor %}
 </ul>
