@@ -7,7 +7,7 @@
     padding: 10px;
     list-style: none;
 
-    li {
+    li:not(:last-child) {
         display: block;
 
         height: 40px;
@@ -19,11 +19,11 @@
         float: right;
         color: darken($defaultTextColor, 30%);
     }
-}
 
-.more-posts {
-    float: right;
-    color: $green;
+    .more-posts {
+        float: right;
+        color: $green;
+    }
 }
 
 @media(min-width: 768px) {
