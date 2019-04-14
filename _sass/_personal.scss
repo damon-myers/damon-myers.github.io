@@ -1,9 +1,11 @@
+@import "globals";
+
 $sidebarWidth: 360px;
 
 .personal-sidebar {
-    background: #333;
+    background: $contentBackgroundColor;
 
-    color: #ddd;
+    color: $defaultTextColor;
 
     width: $sidebarWidth;
     padding: 50px;

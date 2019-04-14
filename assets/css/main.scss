@@ -2,9 +2,15 @@
 # this ensures Jekyll reads the file to be transformed into CSS later
 ---
 
+@import "globals";
+@import "header";
 @import "personal";
 @import "social";
 
 body {
+    margin: 0;
+    padding: 0;
+
+    background: $backgroundColor;
     font-family: monospace;
 }
