@@ -1,6 +1,6 @@
 @import "globals";
 
-.recent-posts {
+.posts {
 }
 
 .post-list {
@@ -27,7 +27,7 @@
 }
 
 @media(min-width: 768px) {
-    .recent-posts {
+    .posts {
         grid-column-start: 2;
 
         width: 360px;
