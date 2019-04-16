@@ -7,10 +7,14 @@
 @import "personal";
 @import "social";
 @import "posts";
+@import "footer";
 
-body {
+html, body {
     margin: 0;
     padding: 0;
+    position: relative;
+
+    height: 100%;
 
     background: $backgroundColor;
     color: $defaultTextColor;
@@ -41,6 +45,12 @@ a:hover {
 }
 
 .content {
+    display: block;
+    position: relative;
+
+    min-height: 100vh;
+    overflow: hidden;
+
     margin: auto;
 }
 

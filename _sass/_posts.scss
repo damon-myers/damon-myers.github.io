@@ -7,7 +7,7 @@
     padding: 10px;
     list-style: none;
 
-    li:not(:last-child) {
+    li {
         display: block;
 
         height: 40px;
@@ -17,7 +17,7 @@
 
     .post-date {
         float: right;
-        color: darken($defaultTextColor, 30%);
+        color: $secondaryTextColor;
     }
 
     .more-posts {

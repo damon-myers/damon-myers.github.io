@@ -2,8 +2,9 @@ $defaultTextColor: #ddd;
 $contentBackgroundColor: #222;
 $backgroundColor: #181818;
 
-$borderColor: lighten($backgroundColor, 20%);
+$secondaryTextColor: darken($defaultTextColor, 30%);
 
+$borderColor: lighten($backgroundColor, 20%);
 
 $orange: #dc9656;
 $yellow: #f7ca88;
