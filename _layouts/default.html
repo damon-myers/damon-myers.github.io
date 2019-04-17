@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" charset="utf-8">
-  {%- include head.html -%}
-  <body>
+    {%- assign title = page.title | append: " - Damon Myers" -%}
+    {%- include head.html title=title -%}
+    <body>
     {%- include header.html -%}
-    <main class="content">
-        {{ content }}
-    </main>
+        <main class="content">
+            {{ content }}
+        </main>
     {%- include footer.html -%}
-  </body>
+    </body>
 </html>
