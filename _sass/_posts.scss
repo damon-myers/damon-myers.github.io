@@ -1,6 +1,19 @@
 @import "globals";
 
-.posts {
+article {
+    p {
+        text-align: left;
+        text-justify: none;
+    }
+
+    a {
+        font-family: inherit;
+        color: $secondaryTextColor;
+    }
+
+    a::before, a::after {
+        content: none;
+    }
 }
 
 .post-list {
@@ -13,11 +26,15 @@
         height: 40px;
         width: 100%;
         margin-bottom: 12px;
+
+        font-size: 10pt;
     }
 
     .post-date {
         float: right;
         color: $secondaryTextColor;
+
+        font-size: 8pt;
     }
 
     .more-posts {
@@ -27,6 +44,7 @@
 }
 
 @media(min-width: 768px) {
+    // posts is the list of posts on the home page and blog page
     .posts {
         grid-column-start: 2;
 

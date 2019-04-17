@@ -19,17 +19,25 @@ html, body {
     background: $backgroundColor;
     color: $defaultTextColor;
 
-    font-family: monospace;
+    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 p {
     text-align: justify;
     text-justify: inter-word;
+    font-size: 10pt;
 }
 
 a {
     color: $defaultTextColor;
     text-decoration: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 a::before {
@@ -48,6 +56,7 @@ a:hover {
     display: block;
     position: relative;
 
+    max-width: 75%;
     min-height: 100vh;
     overflow: hidden;
 
