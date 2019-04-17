@@ -3,8 +3,6 @@ layout: post
 title: "The Pragmatic Programmer: 20 Years Later"
 ---
 
-# The Pragmatic Programmer
-
 The Pragmatic Programmer is one of those oft-touted books that has been on the bookshelves of software engineers for decades. It's on the [StackOverflow list of "most influential books"](https://stackoverflow.com/a/1713/5100021) for programmers, and has almost [13,000 reviews on Goodreads](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer) with an average score of 4.31[^1], outscoring the famous (or infamous) Gang of Four book, [Design Patterns](https://www.goodreads.com/book/show/85009.Design_Patterns).
 
 It's really no surprise that it eventually found its way onto my bookshelf as well, but it managed to stay there until I changed commutes and needed a good book to help pass the time.
